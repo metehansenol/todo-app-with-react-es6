@@ -24,7 +24,7 @@ class App extends React.Component {
 
           <ul>
             {
-              this.state.items.map(item => <li>{item.title}</li>)
+              this.state.items.map(item => <li key={item.id}>{item.title}</li>)
             }
           </ul>
         </div>
