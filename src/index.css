@@ -16,3 +16,12 @@ body {
     /*justify-content: center;*/
     color: white;
 }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.selected {
+    color: #DC143C
+}
